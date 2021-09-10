@@ -1,9 +1,14 @@
 p {
-    font-size: 14;
+    font-size: 18px;
+    text-align: center;
     text-indent: 60px;
 }
 h1 {
+    text-align: center;
+    color:white;
     font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 .peter {
     color: #FF7F50;
@@ -26,5 +31,5 @@ h1 {
 .stage {
     font-style: italic;
     text-indent: 0;
-    color: #797979;
+    color: #E2E2E2;
 }
