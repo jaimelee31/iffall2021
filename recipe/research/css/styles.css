@@ -1,0 +1,78 @@
+html {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+img{
+    width: 310px;
+
+    margin-right: 6%;
+    margin-bottom: 10%;
+    float: left;
+}
+
+section{
+    margin-bottom: 80px;
+
+    margin-left:15%;
+    margin-right:15%;
+}
+
+body{
+    font-size: 13pt;
+    line-height: 1.5em;
+}
+
+h1{
+    color: #000000;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+
+h2{
+    color: #8a8a8a;
+    margin-bottom: 3%;
+    font-weight: 800;
+    line-height: 1em;
+}
+
+h4{
+    font-size: 1.5em;
+    color: #822323;
+    margin-bottom: 3%;
+    font-weight: 800;
+    line-height: 1em;
+}
+
+.intro{
+    margin-top: 10%;
+}
+
+.rectangle{
+    align-content: center;    
+    width: 120%;
+    height: 3px;
+    
+    margin-right: none;
+    margin-top: 25%;
+    margin-left: -10%;
+    background-color: #822323;
+}
+
+.ingredients{
+    color: #822323;
+    font-size: 11pt;
+    float: left;
+    width: 250px;
+    height: 1200px;
+    margin-right: 8%;
+}
+
+.instructions{
+    margin-top: 105px;
+}
+
+.nurtrition{
+    font-size: 10pts
+}
