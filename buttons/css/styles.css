@@ -1,0 +1,396 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+	margin: 40px;
+}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+.button_container {
+	border: 1px solid #ddd;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+a#coke img{
+    display: block;
+    width: 100px;
+    margin: auto;
+    margin-top: 65px;
+}
+
+
+a#coke:hover img{
+    display: block;
+    width: 110px;
+    margin: auto;
+    margin-top: 65px;
+    transform: scale(1.25) rotate(360deg);
+    transition: 0.5s;
+
+}
+
+a#apple .fa-apple{
+    display: inline-block;
+    width:150px;
+    height:150px;
+    font-size: 75pt;
+    align-content: center;
+    margin-top: 70px;
+    transition: transform 0.05s, color 0.2s;
+}
+
+a#apple{
+    margin-top:0px;
+    text-decoration: none;
+    color:black;
+    display:block;
+}
+
+a#apple:hover .fa-apple{
+    color: lightgray;
+}
+
+#oldnavy {
+    font-family: futura-pt-condensed, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 30pt;
+    transition: all .3s;
+}
+
+#oldnavy p {
+    margin: auto;
+    margin-top: 85px;
+    color: rgb(22, 62, 105);
+    padding: 10px 5px 10px 5px;
+    width: 200px;
+}
+
+#oldnavy:hover p {
+    border: solid rgb(22, 62, 105);
+    border-width: 5px;
+    border-radius: 180px / 70px;
+    transform-origin: center;
+    margin-top: 80px;
+}
+
+a#fitbit{
+    display: block;
+    font-family: 'Bariol Regular', sans-serif;
+    color: lightseagreen;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 30pt;
+    transition: all .3s;
+    margin-top: 100px;
+}
+
+#fitbit:hover {
+    letter-spacing: 18px;
+}
+
+a#harley img{
+    width: 150px;
+    margin-top: 60px;
+}
+
+a#harley:hover img {
+    width: 150px;
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+a#michael img  {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: auto;
+    margin-top: 70px;
+}
+
+a#michael:hover img {
+    transition: all 2s;
+    transform: rotateY(500deg);
+}
+
+a#lyft img{
+    display: block;
+    width: 125px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 60px;
+    color: #FF00BF;
+    text-align: center;
+    font-size: 100px;
+}
+
+a#lyft:hover img{
+    box-shadow: 0 0 50px #ec23d2; 
+    border-radius: 20px;
+    transition: 1s;
+    padding: 20px;
+}
+
+a#samsung #one {
+    position: absolute;
+    margin: auto;
+    margin-top: 75px;
+    margin-left: 40px;
+    width: 160px;
+    z-index: 10;
+    transition: all 0.3s ease-in-out;
+}
+
+a#samsung #two {
+    opacity: 0;
+    position: relative;
+    width: 220px;
+    margin-top: 84px;
+    margin-left: 10px;
+    z-index: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+a#samsung:hover #one{
+    opacity: 0;
+}
+
+a#samsung:hover #two {
+    opacity: 1;
+}
+
+a#newyorker img{
+    display: block; 
+    width: 220px;  
+    margin: auto;
+    margin-top: 100px; 
+    padding-bottom: 5px;
+    transition: all .4s;
+}
+
+a#newyorker img:hover{
+    box-shadow: 0px 5px 0px 0 #888888; 
+}
+
+@keyframes cn {
+    33% { transform: skew(25deg); }
+    66% { transform: skew(-25deg); }
+  }
+#nerf img{
+    width: 150px;
+    margin-top: 80px;
+}
+#nerf:hover img{
+    transform-origin: center;
+    animation-name: cn;
+    animation-duration: .7s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+
+#craigslist{
+    display: block;
+    width: 150px;
+    margin: auto;
+    margin-top: 100px;
+    color: blue;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+#craigslist:hover { 
+    color:purple;
+    text-decoration: underline;
+}
+
+@keyframes tonight {
+    50% { transform: translateY(-20px); }
+  }
+#tonight img{
+    width: 150px;
+    margin-top: 50px;
+}
+#tonight:hover img{
+    transform-origin: center;
+    animation-name: tonight;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+
+a#hsn {
+    display: block;
+    color: white;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    border-radius: 75px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 45px 20px 0 20px;
+    background-color: #027dc5;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    transition: all .5s;
+}
+
+a#hsn:hover {
+    background-color: white;
+    color: #027dc5;
+}
+
+.fa-facebook {
+    color: #3b5998;
+    font-size: 100pt;
+    width: 150px;
+    margin: auto;
+    margin-top: 55px;
+}
+a#facebook {
+    text-decoration: none;
+}
+a#facebook p {
+    color: white;
+    display: block;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 10px;
+}
+a#facebook:hover .fa-facebook{
+    font-size: 80px;
+    transition: all 0.7s;
+} 
+
+a#facebook:hover p {
+    color: #3b5998;
+}
+
+#foreflight {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.5s;
+    font-size: 24px;
+    padding-left: 30px;
+}
+
+a#foreflight i{
+    right: 0px;
+    font-size: 30px;
+    transform: translateY(60px) translateX(-80px);
+}
+
+a#foreflight:hover i{
+    margin-left: 260px;
+    transition: 0.4s;
+}
+
+.cn {
+    width: 150px;
+    height: auto;
+    margin: auto;
+    margin-top: 70px;
+}
+.cn:hover {
+    transform: translateY(-27px);
+    border: solid;
+    border-color: black;
+    border-width: 25px;
+    padding: 2px;
+    transform-origin: center;
+    transition: all .3s;
+}
+
+a#kittens{
+    position: relative;
+    top: 25%;
+}
+a#kittens img{
+    width: 100px;
+}
+a#kittens .kittencircle{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%, -80%);
+    width: 140px;
+    height: 140px;
+    background-color:rgb(156, 36, 36);
+    border-radius: 100%;
+    z-index: -1;
+    transition: all 0.2s;
+    margin: auto;
+    transform-origin: center;
+}
+
+a#kittens:hover .kittencircle{
+    -webkit-box-shadow: 0px 0px 30px 0px rgb(156, 36, 36);
+    -moz-box-shadow: 0px 0px 30px 0px rgb(156, 36, 36);
+    box-shadow: 0px 0px 30px 0px rgb(156, 36, 36);
+    width: 170px;
+    height: 170px;
+}
+
+a#nike img{
+    width:150px;
+    margin-top:80px;
+    transition: all 0.4s;
+}
+
+a#nike:hover img {
+    transform: rotate(-30deg);
+}
+
+a#garden {
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-top: 80px;
+    color: rgb(11, 87, 11);
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    transition: .4s;
+    transform-origin: bottom;
+}
+
+a#garden:hover {
+    transform: translateX(-50px) translateY(-30px);
+    line-height: 200%;
+    letter-spacing: 10px;
+}
+
+a#army img{
+    width: 125px;
+    margin-top: 35px;
+}
+
+a#army:hover img {
+    width: 150px;
+    transform: scale(0.75) translateY(-20px);
+}
