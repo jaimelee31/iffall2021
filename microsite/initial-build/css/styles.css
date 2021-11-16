@@ -1,0 +1,37 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+nav#main-nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav#main-nav ul li a {
+    display: inline-block;
+    color: lightgrey;
+    padding: 2em 2em;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav#main-nav ul li a:hover{
+    color: white;
+}
+
+nav#main-nav ul li a.selected{
+    color: white;
+}
+
+img{
+    width: 80%;
+}
+
+.chip{
+    width: 20%;
+}
