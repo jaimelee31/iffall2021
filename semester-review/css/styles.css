@@ -1,0 +1,46 @@
+html{
+    background-color: rgb(230, 244, 255);
+}
+
+.nav{
+    text-align: center;
+    line-height: 38px;
+}
+
+h1{
+    font-family: ff-nexus-serif, serif;
+    color: rgb(84, 107, 151);
+    font-weight: 400;
+    font-style: italic;
+    font-size: 42px;
+    text-align: center;
+    margin-top: 150px;
+
+}
+h2{
+    font-family: skolar-sans-latin, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 26px;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+a#btn{
+    text-decoration: none;
+    display: inline;
+    color: black;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: skolar-sans-latin, sans-serif;
+}
+
+a#btn:hover{
+    text-decoration: none;
+    display: inline;
+    color: rgb(84, 107, 151);
+    font-size: 17px;
+    font-family: skolar-sans-latin, sans-serif;
+    transition: all 0.1s;
+    text-decoration: underline;
+}
